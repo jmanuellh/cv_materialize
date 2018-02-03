@@ -1,4 +1,6 @@
-
+p {
+	font-size: 1.2rem;
+}
 
 #foto-perfil {
 	display:none
@@ -6,7 +8,7 @@
 
 @media (min-width: 992px) {	
 	.main {
-		margin-left: 18em;
+		margin-left: 18rem;
 	}
 
 	.sidenav {
@@ -48,7 +50,7 @@
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #f44336;
   color: white;
 }
 

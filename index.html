@@ -5,8 +5,12 @@
 	<title>CV_jmanuellh</title>
 	<meta name="author" content="manuellh2008@gmail.com">
 	<meta name="description" content="Pagina de prueba de jmanuellh hecha como un resumen de curriculum vitae">
+	<!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Materialize-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<!--CSS Personal-->
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -17,92 +21,152 @@
 	<div>
 		<nav class="sidenav">
 			<ul class="topnav" id="myTopnav">
-				<a href="#imagen"><img src="media/curriculum_foto.jpg" alt="imagen perfil jmanuellh" id="foto-perfil" class="responsive-img circle" ></a>
-				<a href="#acercade" class="active">Acerca de mí</a>
+				<a href="#acercade"><img src="media/curriculum_foto.jpg" alt="imagen perfil jmanuellh" id="foto-perfil" class="responsive-img circle" ></a>
+				<a href="#acercade" class="active">José Manuel</a>
 				<a href="#experiencia">Experiencia</a>
-				<a href="#educación">Educacion</a>
+				<a href="#educacion">Educacion</a>
 				<a href="#habilidades">Habilidades</a>
 				<a href="#intereses">Intereses</a>
-				<a href="#logros">Logros y certificaciones</a>
+				<!--<a href="#logros">Logros y certificaciones</a>-->
 				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 			</ul>
 		</nav>
 	</div>
 	<!--Contenido-->
-	<div class="container main">
+	<div class="main">
 		<!--Acerca de-->
 		<div><a name="acercade"></a>
 			<h1>Jose Manuel Lopez Hernandez</h1>
-			<!--Texto-->
+			<h4>Torreón, Coahuila · 8712-79-9243 · manuellh2008@gmail.com</h4>
 			<div>
-				<p>Acerca de mi</p>	
+				<p>He estado en un negocio propio y también en practicas profesionales en oficinas del gobierno, así como en una empresa profesional.
+					Siempre buscando creando mis propios proyectos.
+				</p>	
 			</div>
+			<br>
 			<!--redes-->
-			<div>
-				
+			<div class="row">
+				<div><a href="http://www.linkedin.com/in/jose-manuel-lopez-hernandez"><img src="media/linkedin-logo.svg" alt="" class="responsive-img col s2 l1 offset-s4 offset-l4"></a></div>
+				<div><a href="https://github.com/jmanuellh/"><img src="media/github-logo.svg" alt="" class="responsive-img col s2 l1"></a></div>
 			</div>
 		</div>
+		<br><br><br><br><br>
 		<!--Experiencia-->
-		<div name="experiencia">
+		<div><a name="experiencia"></a>
 			<h2>Experiencia</h2>
 			<!--Experiencia 1-->
 			<div>
-				<h3>Experiencia 1</h3>
-				<div>
-					<p>Texto</p>
+				<h3>Colossus System's</h3>
+				<div class="row">
+					<p class="col s12 m10">
+						Socio Fundador <br>
+						Tel. 871-1124269 <br>
+						Cofunde con cuatro personas más este negocio. <br>
+						Especializado en reparación, mantenimiento y venta de equipo a minoristas y a
+						medianas empresas, siempre con profesionalismo, y comprometidos en darle confianza
+						a nuestros clientes.
+
+					</p>
+					<p class="col s12 m2">
+						septiembre de 2014 — octubre 2015
+					</p>
 				</div>
 			</div>
 			<!--Experiencia 2-->
 			<div>
-				<h3>Experiencia 2</h3>
-				<div>
-					<p>Texto</p>
+				<h3>Poder Judicial de la Federacion</h3>
+				<div class="row">
+					<p class="col s12 m10">
+						Practicas profesionales <br>
+						Tel. 871-2990500 <br>
+						Estadía de practicas profesionales. <br>
+						Realizaba diversas tareas desde mantenimiento de redes, asistencia técnica
+						personalisada, hasta creación de un par de script para direccionar archivos a la base de
+						datos.
+
+					</p>
+					<p class="col s12 m2">
+						agosto de 2013 — septiembre de 2014
+					</p>
 				</div>
 			</div>
 			<!--Experiencia 3-->
 			<div>
-				<h3>Experiencia 3</h3>
-				<div>
-					<p>Texto</p>
+				<h3>API Inmobiliaria y Asesores SA de CV</h3>
+				<div class="row">
+					<p class="col s12 m10">
+						Administrador de Sistema <br>
+						Tel. 871-688-6666, 871-177-5933 <br>
+						Administrador de Sistemas de la empresa. <br>
+						Implementador de sistema de manejo de propiedades, encargador de llevar a cabo
+						sistemas para la captacion, y publicitar las propiedades en la inmobiliaria.
+						Entre los que se incluye ver las propiedades de manera grafica, estandarizar, su subida
+						al sistema (implementado por mi), manipular la sincronización con portales de
+						publicidad especializados (despues de haber hecho las debidas pruebas), y
+						capacitacion de usuarios en el sistema entre otras funciones.
+
+					</p>
+					<p class="col s12 m2">
+						Marzo 2016 — Octubre 2017
+					</p>
 				</div>
 			</div>
 		</div>
 		<!--Educación-->
-		<div name="educacion">
+		<div><a name="educacion"></a>
 			<h2>Educación</h2>
 			<!--Ultima-->
-			<div>
-				<h3>Ultima educación</h3>
-				<p>Texto</p>
+			<h3>Licenciatura en Sistemas Computacionales Administrativos</h3>
+			<div class="row">
+				<div class="col s12 m10">
+					<h4>Universidad Autonoma de Coahuila</h4>
+					<p>Carretera Torreón - Matamoros, Torreón, Coahuila</p>
+				</div>
+
+				<p class="col s12 m2"> agosto de 2011 — diciembre de 2015</p>
 			</div>
-			<!--Peçnultima-->
-			<div>
-				<h3>Penultima educación</h3>
-				<p>Texto</p>
-			</div>
-		</div>
 		<!--Habilidades-->
-		<div class="container">
+		<div><a name="habilidades"></a>
 			<h2>Habilidades</h2>
-			<ul>
-				<li>1</li>
-				<li>2</li>
-				<li>3</li>
+			<ul class="row">
+				<li class="col s2 m1"><img src="media/db-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/js-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/java-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/html5-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/css3-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/codeigniter-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/github-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/linux-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/mysql-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/bootstrap4-logo.svg" class="responsive-img"></li>
 			</ul>
 		</div>
 		<!--Intereses-->
-		<div class="container">
+		<div><a name="intereses"></a>
 			<h2>Intereses</h2>
-			<p>Texto</p>
+			<ul>
+				<h5>
+				<li><i> Nuevas tecnologías</i> </li>
+				<br>
+				<li><i>Conocer nuevos ambientes </i></li>
+				<br>
+				<li><i>Emprender</i></li>
+				<br>	
+				<li><i> Ayudar a las personas con mi trabajo</i></li>
+				<br>
+				<li><i> Software libre</i></li>
+				</h5>
+			</ul>
+			</p>
 		</div>
 		<!--Logros y certificaciones-->
-		<div class="">
-			<ul>
-				<li>1</li>
-				<li>1</li>
+		<!--<div><a name="logros"></a>
+			<ul class="row">
+				<li class="col s2 m1"><img src="media/db-logo.svg" class="responsive-img"></li>
+				<li class="col s2 m1"><img src="media/js-logo.svg" class="responsive-img"></li>
 				<li>1</li>
 			</ul>
-		</div>
+		</div>-->
 	</div> <!--div contenido-->
 </div> <!--div principal-->
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>-->
