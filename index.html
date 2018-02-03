@@ -14,23 +14,24 @@
 <!--Div Principal-->
 <div>
 	<!--Menu-->
-	<nav class="sidenav">
-	<div class="nav-wrapper">
-		<ul>
-			<li><img id="foto-perfil" class="responsive-img circle" src="media/curriculum_foto.jpg" alt="imagen perfil jmanuellh"></li>
-			<li>Acerca de mí</li>
-			<li>Experiencia</li>
-			<li>Educación</li>
-			<li>Habilidades</li>
-			<li>Intereses</li>
-			<li>Logros y certificaciones</li>
-		</ul>
+	<div>
+		<nav class="sidenav">
+			<ul class="topnav" id="myTopnav">
+				<a href="#imagen"><img src="media/curriculum_foto.jpg" alt="imagen perfil jmanuellh" id="foto-perfil" class="responsive-img circle" ></a>
+				<a href="#acercade" class="active">Acerca de mí</a>
+				<a href="#experiencia">Experiencia</a>
+				<a href="#educación">Educacion</a>
+				<a href="#habilidades">Habilidades</a>
+				<a href="#intereses">Intereses</a>
+				<a href="#logros">Logros y certificaciones</a>
+				<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+			</ul>
+		</nav>
 	</div>
-	</nav>
 	<!--Contenido-->
-	<div class="main">
+	<div class="container main">
 		<!--Acerca de-->
-		<div>
+		<div><a name="acercade"></a>
 			<h1>Jose Manuel Lopez Hernandez</h1>
 			<!--Texto-->
 			<div>
@@ -42,7 +43,7 @@
 			</div>
 		</div>
 		<!--Experiencia-->
-		<div>
+		<div name="experiencia">
 			<h2>Experiencia</h2>
 			<!--Experiencia 1-->
 			<div>
@@ -67,7 +68,7 @@
 			</div>
 		</div>
 		<!--Educación-->
-		<div>
+		<div name="educacion">
 			<h2>Educación</h2>
 			<!--Ultima-->
 			<div>
@@ -104,5 +105,7 @@
 		</div>
 	</div> <!--div contenido-->
 </div> <!--div principal-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>-->
+<script src="js/script.js"></script>
 </body>
 </html>
