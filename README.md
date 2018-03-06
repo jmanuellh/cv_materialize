@@ -2,4 +2,4 @@
 Landing page hecha con meterialize para mostrar un curriculum vitae
 
 Pagina de prueba
-http://jmanuellh.16mb.com/landingpage_materialize_cv1/
+http://jmanuellh.16mb.com/proyectos/landingpage_materialize_cv1/
